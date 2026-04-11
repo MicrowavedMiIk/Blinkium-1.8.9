@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "patarakiwi",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "NetworkManagerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
