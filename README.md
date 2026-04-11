@@ -9,7 +9,7 @@
 
 ### 🚀 Key Features
 * **Ghost Replication:** Spawns a 1:1 clone of your player model where the server last saw you.
-* **Smart Syncing:** Your ghost will flash red when you take damage and swing its arm when you do.
+* **Smart Syncing:** The bot replicates everything that the server sees so you basically can see what the server sees.
 * **Netty Interception:** Uses low-level packet handling to ensure no movement data leaks to the server.
 
 ---
