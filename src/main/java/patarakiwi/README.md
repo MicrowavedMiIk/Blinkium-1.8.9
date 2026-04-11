@@ -1,23 +1,36 @@
-# Blinkium-1.8.9
+# ⚡ Blinkium-1.8.9
 
-**Blinkium** is a lightweight Minecraft 1.8.9 Forge utility mod. It features a packet-based "Blink" system that lets you step out of your server-side body for PvP practice and movement simulation.
-
-## ✨ Features
-* **Blink Logic:** Intercepts movement packets while active.
-* **Server-Side Ghost:** Spawns a ghost entity exactly where the server sees you.
-* **Sync Animations:** The ghost replicates your arm swings and taking damage.
+> A high-performance Minecraft 1.8.9 utility mod for packet-side movement simulation.
 
 ---
 
-## 📺 Video Guides
+## 📖 Overview
+**Blinkium** allows you to "Blink" (desync from the server). While active, you can move freely while the server sees you frozen in your own "Ghost." This is perfect for testing PvP reach, projectile paths, and movement mechanics.
 
-### [Showcase: How it Works](YOUR_LINK_HERE)
-### [Installation Guide](YOUR_LINK_HERE)
+### 🚀 Key Features
+* **Ghost Replication:** Spawns a 1:1 clone of your player model where the server last saw you.
+* **Smart Syncing:** Your ghost will flash red when you take damage and swing its arm when you do.
+* **Netty Interception:** Uses low-level packet handling to ensure no movement data leaks to the server.
 
 ---
 
-## 🛠 Installation
-1. Download the latest `.jar` from [Releases](https://github.com/MicrowavedMilk/Blinkium-1.8.9/releases).
-2. Place it in your `mods` folder.
-3. Use **Standard Forge 1.8.9** (Note: Not compatible with Lunar Client).
-4. Press **G** to toggle.
+## 📺 Media & Guides
+
+### 🎥 Showcase Video
+[Watch the Mod in Action](YOUR_VIDEO_LINK_HERE)
+
+### 🛠 Installation Guide
+[How to install Blinkium](YOUR_VIDEO_LINK_HERE)
+
+---
+
+## 📥 How to Install
+1. **Requirements:** [Minecraft Forge 1.8.9](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html).
+2. Download the `.jar` from the [Releases](https://github.com/MicrowavedMilk/Blinkium-1.8.9/releases) section.
+3. Drag the file into your `%appdata%/.minecraft/mods` folder.
+4. Launch the game and press **`G`** to toggle.
+
+---
+
+## 📜 Disclaimer
+*This mod is for educational and private-server testing use only. Use on public competitive servers is at your own risk.*
