@@ -14,19 +14,14 @@
 
 ---
 
-## 📺 Media & Guides
-
 ### 🎥 Showcase Video
-[Watch the Mod in Action](YOUR_VIDEO_LINK_HERE)
-
-### 🛠 Installation Guide
-[How to install Blinkium](YOUR_VIDEO_LINK_HERE)
+[Watch the Mod in Action](https://www.youtube.com/watch?v=W0ClQOnrMqU)
 
 ---
 
 ## 📥 How to Install
 1. **Requirements:** [Minecraft Forge 1.8.9](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html).
-2. Download the `.jar` from the [Releases](https://github.com/MicrowavedMilk/Blinkium-1.8.9/releases) section.
+2. Download the `.jar` from the [Releases](https://github.com/MicrowavedMiIk/Blinkium-1.8.9/releases) section.
 3. Drag the file into your `%appdata%/.minecraft/mods` folder.
 4. Launch the game and press **`G`** to toggle.
 
