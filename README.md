@@ -12,7 +12,8 @@ While active, you move freely through the world while the server keeps your play
 ---
 
 ### Showcase
-![Blinkium Demo](https://i.imgur.com/8lWCxsm.gif)
+<img src="https://i.imgur.com/8lWCxsm.gif" alt="Blinkium Demo">
+
 *Note: If the demo isn't loading, it's likely because I had to fight GitHub's file limits just to show you what this looks like.*
 
 ---
