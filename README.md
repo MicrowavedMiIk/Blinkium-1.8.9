@@ -17,7 +17,6 @@ While active, you move freely through the world while the server keeps your play
 https://github.com/user-attachments/assets/518099ab-944f-42e4-a056-7a865b6aacd9
 
 
-*Note: If the demo isn't loading, it's likely because I had to fight GitHub's file limits just to show you what this looks like.*
 
 ---
 
