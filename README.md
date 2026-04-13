@@ -12,7 +12,7 @@ While active, you move freely through the world while the server keeps your play
 ---
 
 ### Showcase
-<video src="https://i.imgur.com/8lWCxsm.gif" autoplay loop muted playsinline style="max-width: 100%;"></video>
+<video src="https://github.com/MicrowavedMiIk/Blinkium-1.8.9/raw/main/video_demo.mp4" autoplay loop muted playsinline style="max-width: 100%;"></video>
 
 *Note: If the demo isn't loading, it's likely because I had to fight GitHub's file limits just to show you what this looks like.*
 
