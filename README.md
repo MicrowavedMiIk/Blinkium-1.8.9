@@ -1,31 +1,30 @@
-# ⚡ Blinkium-1.8.9
+# Blinkium 1.8.9
 
-> A high-performance Minecraft 1.8.9 utility mod for packet-side movement simulation.
-
----
-
-## 📖 Overview
-**Blinkium** allows you to "Blink" (desync from the server). While active, you can move freely while the server sees you frozen in your own "Ghost." This is perfect for testing PvP reach, projectile paths, and movement mechanics.
-
-### 🚀 Key Features
-* **Ghost Replication:** Spawns a 1:1 clone of your player model where the server last saw you.
-* **Smart Syncing:** The bot replicates everything that the server sees so you basically can see what the server sees.
-* **Netty Interception:** Uses low-level packet handling to ensure no movement data leaks to the server.
+Blinkium is a lightweight Forge mod for 1.8.9 that facilitates "Blinking"—the art of convincing a server that you’ve finally succumbed to a fatal heart attack while your soul wanders the map in total desync.
+While active, you move freely through the world while the server keeps your player model frozen in a state of rigor mortis. It is the perfect tool for analyzing PvP reach or watching your physical form get beaten to death while you stand five blocks away, powerless to stop it.
 
 ---
 
-### 🎥 Showcase Video
-[Watch the Mod in Action](https://www.youtube.com/watch?v=W0ClQOnrMqU)
+## Technical Details
+* **Selective Packet Hijacking:** This mod **only** intercepts movement packets. Your combat and chat packets still function normally, allowing you to talk to your executioner while they’re still hitting the spot where you were standing ten seconds ago. 
+* **The Mixin Nightmare:** Setting up Mixins for 1.8.9 is a special kind of hell. If the code looks like it was written by someone losing their grip on reality, that's because injecting into the Netty pipeline while Forge tries to lobotomize your IDE is a great way to waste several years of your life expectancy.
 
 ---
 
-## 📥 How to Install
-1. **Requirements:** [Minecraft Forge 1.8.9](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html).
-2. Download the `.jar` from the [Releases](https://github.com/MicrowavedMiIk/Blinkium-1.8.9/releases) section.
-3. Drag the file into your `%appdata%/.minecraft/mods` folder.
-4. Launch the game and press **`G`** to toggle.
+### Showcase
+![Blinkium Demo](https://cdn.discordapp.com/attachments/936534756533891133/1493210634542780468/ezgif-2a66d85b2b253e16.gif?ex=69de2445&is=69dcd2c5&hm=10f41a06491b3e0d553f5f2355ae7b85efab4efde853ad58910c2444022cba16&)
+*Note: If the demo isn't loading, it's likely because I had to fight GitHub's file limits just to show you what this looks like.*
 
 ---
 
-## 📜 Disclaimer
-*This mod is for educational and private-server testing use only. Use on public competitive servers is at your own risk.*
+## Installation & Build
+1. **Users:** Toss the `.jar` into your `%appdata%/.minecraft/mods` folder. Default toggle is **G**, but you should probably rebind that before you accidentally ruin your life during a recorded match.
+2. **Developers:** Clone the repo and run `gradlew setupDecompWorkspace`.
+3. **Build:** Run `gradlew build`. Your fresh JAR will be in `build/libs/`, assuming the configuration didn't spontaneously combust out of spite.
+
+---
+
+## Disclaimer & Issues
+This project is for educational purposes and private server testing. If you use this on a public competitive server and get banned, do not post it in the GitHub Issues. Use your brain, or what’s left of it after setting up a 1.8.9 workspace.
+**Any Issues titled "I got banned" or "Help me appeal" will be closed immediately and archived as a testament to your stupidity.** I am not your therapist, I am not your lawyer, and I certainly don't care about your "lost progress" or your "unbroken win streak." 
+
